@@ -10,19 +10,6 @@ header {
 
 }
 
-h1{
-    display: flex;
-    background-color: #1cb6e8;
-    font-family: 'Press Start 2P';
-    font-size: 12px;
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 2px 2px 3px #000000;
-    padding-top: 12px;
-    padding-right: 5px;
-    padding-left: 22px;
-}
-
 nav {
     text-align: right;
     margin-left: 35px;
