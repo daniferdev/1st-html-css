@@ -1,72 +1,8 @@
-header {
-    display: flex;
-    align-items: center;
-    background-color: #1cb6e8;
-    border-bottom: 2px solid #000000;
-    padding: 10px;
-    padding-left: 25px;
-    margin-bottom: 30px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px -35px 35px -30px inset;
-}
-
-nav {
-    text-align: right;
-    margin-left: 35px;
-    margin-bottom: 30px;
+header{
+    background-color: blueviolet;
 }
 
 a{
-    display: inline-flex;
-    align-items: left;
-    background-color: #ffffff;
-    color: #ffffff;
-    font-size: 10px;
-    font-family: "Fira Code";
-    font-weight: 500;
-    text-decoration: none;
-    text-align: center;
-    margin-right: 5px;
-    margin-left: 5px;
-    padding-top: 5px;
-}
-
-a::before{
-    content: "";
-    align-items: center;
-    color: #000000;
-    display: inline-block;
-    background-color: #000000;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-    border-radius: 50px;
-    margin-right: 10px;
-}
-
-#button1 ,#button2 ,#button3 ,#button4{
-    background-color: #f232a1;
-    display: inline-block;
-    line-height: 25px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 20px;
-    margin-right: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 8px;
-    height: 30px;
-    width: 200px;
-    transition: transform 500ms linear;
-}
-#button1:hover,#button2:hover,#button3:hover,#button4:hover {
-    transform: scale(1.04);
-    transition: transform 200ms linear;
-}
-
-div{
-    display: inline-block;
-    width: 100%;
+    color: white;
+    font-size: 20px;
 }
