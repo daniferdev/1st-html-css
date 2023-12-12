@@ -35,13 +35,6 @@ a{
     transform: scale(1.08);
 }
 
-h1{
-    font-family: "Press Start 2P";
-    font-size: 40px;
-    color: blueviolet;
-    text-shadow: 4px 4px 0px #000000;
-}
-
 a::before{
     content: "";
     background-color: #eeff00;
