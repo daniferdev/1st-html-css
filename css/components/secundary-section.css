@@ -1,0 +1,16 @@
+.secundary-section{
+    display: block;
+    background-color: #FDB927;
+    height: 580px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #000;
+    align-content: center;
+}
+
+.secundary-section .main-title{
+    margin-bottom: 60px;
+}
+
+
+
