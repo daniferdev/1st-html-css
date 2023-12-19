@@ -1,8 +1,9 @@
 .main-title{
-    font-family: "Press Start 2P";
-    font-size: 40px;
+    font-family: "Fira Code";
+    font-size: 30px;
     color: #8a2be2;
-    text-shadow: 4px 4px 0px #000000;
+    text-shadow: 2px 2px 0px #000000;
+    padding-bottom: 1px;
 }
 
 .main-title.-second{
@@ -13,4 +14,5 @@
 .main-title.-third{
     font-size:30px;
     color: #fff;
+    margin-bottom: 1px;
 }
