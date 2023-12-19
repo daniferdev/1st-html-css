@@ -1,4 +1,4 @@
-.banner{
+.banner-view{
     box-sizing: border-box;
     background-image: url(../../assets/img/neymar.jpg);
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
     padding-left: 90px; 
 }
 
-.banner .wrapper{
+.banner-view .wrapper{
     display: flex;
     flex-direction: column;
     width: 450px;
@@ -17,11 +17,11 @@
     
 }
 
-.banner .box{
+.banner-view .main-box{
     margin-bottom: 40px;
 }
 
-.banner .navigation{
+.banner-view .navigation{
     display: flex;
     justify-content: space-around;
     margin-left: 28px;
