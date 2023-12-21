@@ -12,4 +12,9 @@ button{
     text-decoration: none;
 }
 
-
+.node-card .logo{
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-left-width: 0px;
+}

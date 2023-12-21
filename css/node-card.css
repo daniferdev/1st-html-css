@@ -1,0 +1,41 @@
+.node-card{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+    
+}
+
+.node-card::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border-top: 2px dashed black;
+    transform: rotate(90deg) translateX(-62%);
+    bottom: 180px
+}
+
+.node-card .title{
+    font-family: "Fira Code";
+    font-size: 25px;
+    font-weight: 400;
+    color: yellowgreen;
+    margin-bottom: 50px;
+}
+
+.node-card .logo{
+
+    align-items: center;
+    height: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: aqua;
+    
+    
+}
