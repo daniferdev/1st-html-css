@@ -1,12 +1,22 @@
-.top-header{
+.top-header {
     display: flex;
     justify-content: space-between;
     background-color: #552583;
     border-bottom: 10px solid #000000;
-    padding-top: 5px;
+    padding-top: 10px; /* Aumentei o padding-top para melhor espaçamento */
     width: 100%;
-    height: 38px;
+    height: 50px; /* Ajustei a altura para melhor visualização em dispositivos menores */
     padding-bottom: 12px;
 }
 
+/* Adicionado Media Query para dispositivos menores, como o iPhone 11 em modo retrato */
+@media only screen and (max-width: 828px) {
+    .top-header {
+        flex-direction: column; /* Alterei para empilhar os elementos verticalmente */
+        align-items: center; /* Centralize os itens verticalmente */
+        height: auto; /* Altura automática para se ajustar ao conteúdo */
+        padding-top: 10px; /* Ajuste de espaçamento */
+        padding-bottom: 10px; /* Ajuste de espaçamento */
+    }
+}
 

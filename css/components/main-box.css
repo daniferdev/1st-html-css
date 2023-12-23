@@ -1,12 +1,22 @@
-.main-box{
+.main-box {
     display: inline-block;
     background-color: rgb(109, 97, 120);
-    width: 400px;
+    width: 100%; /* Alterado para ocupar toda a largura disponível */
+    max-width: 400px; /* Adicionado um máximo para evitar que fique muito largo */
     box-shadow: 10px 10px 5px;
     text-align: center;
-    padding: 20px
+    padding: 20px;
+    margin: 0 auto; /* Centralizado horizontalmente */
 }
 
-.main-box .main-title{
+/* Adicionado Media Query para dispositivos menores, como o iPhone 11 em modo retrato */
+@media only screen and (max-width: 828px) {
+    .main-box {
+        max-width: 100%; /* Ocupar toda a largura disponível */
+        margin: 0; /* Removido a margem para ocupar toda a largura disponível */
+    }
+}
+
+.main-box .main-title {
     margin-bottom: 28px;
 }

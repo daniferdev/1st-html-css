@@ -1,28 +1,45 @@
-.banner-view{
+.banner-view {
     box-sizing: border-box;
     background-image: url(../../assets/img/neymar.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 560px;
     border-bottom: 10px solid #000;
     padding-top: 70px;
-    padding-left: 90px; 
+    padding-left: 90px;
 }
 
-.banner-view .wrapper{
+.banner-view .wrapper {
     display: flex;
     flex-direction: column;
-    width: 450px;
-    height: 250px;
-    
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
-.banner-view .main-box{
+.banner-view .main-box {
     margin-bottom: 40px;
 }
 
-.banner-view .navigation{
+.banner-view .navigation {
     display: flex;
     justify-content: space-around;
     margin-left: 28px;
+}
+
+/* Media Query para iPhone 11 em modo retrato */
+@media only screen and (max-width: 828px) {
+    .banner-view {
+        height: auto;
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+
+    .banner-view .wrapper {
+        max-width: 100%;
+    }
+
+    .banner-view .navigation {
+        margin-left: 0;
+    }
 }

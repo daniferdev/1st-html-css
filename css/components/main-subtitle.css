@@ -1,4 +1,4 @@
-.main-subtitle{
+.main-subtitle {
     font-size: 20px;
     font-family: "Fira Code";
     text-shadow: 4px 4px 0px #552583;
@@ -6,7 +6,13 @@
     padding-top: 3px;
 }
 
-.main-section{
-    font-family: 'Press Start 2P';
+/* Adicionado Media Query para dispositivos menores, como o iPhone 11 em modo retrato */
+@media only screen and (max-width: 828px) {
+    .main-subtitle {
+        font-size: 16px; /* Reduzi o tamanho da fonte para dispositivos menores */
+    }
+}
 
+.main-section {
+    font-family: 'Press Start 2P';
 }

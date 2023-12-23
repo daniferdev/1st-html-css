@@ -1,4 +1,4 @@
-.menu-action{
+.menu-action {
     display: inline-flex;
     align-items: center;
     color: #000000;
@@ -6,14 +6,29 @@
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-right: 20px; /* Reduzi a margem para melhor espaçamento */
+    margin-bottom: 20px; /* Reduzi a margem para melhor espaçamento */
 }
 
-.menu-action::before{
+.menu-action::before {
     content: "";
     background-color: #FDB927;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
+    width: 8px; /* Reduzi o tamanho do marcador */
+    height: 8px; /* Reduzi o tamanho do marcador */
+    margin-right: 8px; /* Reduzi a margem do marcador */
+}
+
+/* Adicionado Media Query para dispositivos menores, como o iPhone 11 em modo retrato */
+@media only screen and (max-width: 828px) {
+    .menu-action {
+        font-size: 16px; /* Reduzi o tamanho da fonte para dispositivos menores */
+        margin-right: 15px; /* Ajustei a margem para melhor espaçamento */
+        margin-bottom: 15px; /* Ajustei a margem para melhor espaçamento */
+    }
+
+    .menu-action::before {
+        width: 6px; /* Reduzi o tamanho do marcador para dispositivos menores */
+        height: 6px; /* Reduzi o tamanho do marcador para dispositivos menores */
+        margin-right: 6px; /* Reduzi a margem do marcador para dispositivos menores */
+    }
 }
