@@ -47,7 +47,7 @@ font-size: 20px;
 }
 
 .button-arrow.-right::before{
-    transform: rotate(deg) translateX(18px);
+    transform: translateX(5px);
 }
 
 .button-arrow.-left::before{
