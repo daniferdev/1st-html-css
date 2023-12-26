@@ -1,14 +1,14 @@
-const ButtonRight = document.querySelector('.button-arrow.-right');
-const ButtonLeft = document.querySelector('.button-arrow.-left');
+const btnRight = document.querySelector('.button-arrow.-right');
+const btnLeft = document.querySelector('.button-arrow.-left');
 const elements = document.querySelector('.elements');
-let pixels = 10
+let pixels = 100;
 
-ButtonRight.addEventListener('click', function() {
+btnRight.addEventListener('click', function() {
     pixels = pixels + 100;
     elements.style = `transform: translateX(${pixels}px)`;
 });
 
-ButtonLeft.addEventListener('click', function() {
+btnLeft.addEventListener('click', function() {
     pixels = pixels - 100;
     elements.style = `transform: translateX(${pixels}px)`;
-});
+})

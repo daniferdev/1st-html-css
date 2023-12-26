@@ -45,7 +45,8 @@
 .button-arrow {
     width: 50px;
     height: 50px;
-    background-color: aqua;
+    background-color: #FDB927;
+    box-shadow: 5px 5px 0px #000000;
     cursor: pointer;
 }
 
@@ -54,22 +55,21 @@
 }
 
 .button-arrow::before {
+    content: '';
     display: block;
     box-sizing: border-box;
-    width: 24px;
-    height: 24px;
-    content: "";
-    border: 20px solid transparent;
-    border-left: 38px solid white;
-    transform: translateX(4px);
-}
-
-.button-arrow.-right::before {
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left: 28px solid white;
     transform: translateX(5px);
 }
 
-.button-arrow.-left::before {
-    transform: rotate(180deg) translateX(18px);
+.button-arrow.-right::before {
+    transform: translateX;
 }
 
+.button-arrow.-left::before {
+    transform: rotate(180deg) translateX(5px);
 }
+

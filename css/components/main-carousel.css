@@ -1,63 +1,56 @@
-.main-carousel{
-display: flex;
-position: relative;   
-padding: 100px;
-height: 80px;
-text-align: center;
-overflow: hidden;
-}
-
-.main-carousel::after{
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    content: "";
-    left: 60px;
-    top: 50px;
-    height: 4px;
-    width: calc(100% - 120px);
-    background-color: black;
-}
-
-.main-carousel::before{
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    content: "";
-    left: 5px;
-    top: 50px;
-    width: 100%;
-    border: 2px dashed black;
-}
-
-.main-carousel .button-arrow{
-position: absolute;
-bottom: 95px;
-}
-
-.main-carousel .button-arrow.-left{
-    left: 15px;
-    box-shadow: -5px 5px 0px #000000;
-}
-
-.main-carousel .button-arrow.-right{
-    right:15px;
-    box-shadow: 5px 5px 0px #000000;
-}
-
-.main-carousel .logo{
-    border: 2px solid black;
-    padding: 15px;
-}
-
-.main-carousel .items{
+.main-carousel {
     display: flex;
+    justify-content: space-between;
     position: relative;
-    justify-content: space-around;
-    width: 100%;
-    bottom: 80px;
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
-.main-carousel .elements{
+.main-carousel::after {
+    content: '';
+    position: absolute;
+    left: 50px;
+    top: 38px;
+    display: block;
+    height: 6px;
+    width: calc(100% - 100px);
+    background-color: #000;
+}
+
+.main-carousel::before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 38.2px;
+    display: block;
+    border: 3px dashed #000;
+    width: 100%;
+}
+
+
+.main-carousel .button-arrow {
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+}
+
+.main-carousel .button-arrow.-left {
+    left: 15px;
+}
+
+.main-carousel .button-arrow.-right {
+    right: 15px;
+}
+
+.main-carousel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
     display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    transition: transform 500ms ease-in-out;
 }
