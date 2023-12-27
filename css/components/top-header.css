@@ -3,20 +3,16 @@
     justify-content: space-between;
     background-color: #552583;
     border-bottom: 10px solid #000000;
-    padding-top: 10px; /* Aumentei o padding-top para melhor espaçamento */
+    padding-top: 10px;
     width: 100%;
-    height: 50px; /* Ajustei a altura para melhor visualização em dispositivos menores */
+    height: 50px;
     padding-bottom: 12px;
 }
 
-/* Adicionado Media Query para dispositivos menores, como o iPhone 11 em modo retrato */
-@media only screen and (max-width: 828px) {
-    .top-header {
-        flex-direction: column; /* Alterei para empilhar os elementos verticalmente */
-        align-items: center; /* Centralize os itens verticalmente */
-        height: auto; /* Altura automática para se ajustar ao conteúdo */
-        padding-top: 10px; /* Ajuste de espaçamento */
-        padding-bottom: 10px; /* Ajuste de espaçamento */
-    }
+.header-logo{
+    position: relative;
+    left: 20px;
 }
+
+
 
