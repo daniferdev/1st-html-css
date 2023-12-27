@@ -1,0 +1,12 @@
+.main-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FDB927;   
+}
+
+.main-footer .contact-icon{
+    display: inline-flex;
+    margin: 0px 20px;
+}
