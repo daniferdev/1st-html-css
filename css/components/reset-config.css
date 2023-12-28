@@ -1,9 +1,10 @@
 body{
-	padding: 0;
+	padding: 0px;
 }
 
-body,h1,h2,h3,figure{
-    margin: 0;
+body,h1,h2,h3,figure, input{
+    margin: 0px;
+    padding: 0px;
 }
 
 button{
